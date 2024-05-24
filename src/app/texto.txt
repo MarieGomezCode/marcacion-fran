@@ -1,0 +1,20 @@
+los paquetes y archivos estan en ingles pero las clases en español excepto servicio usuario
+
+en el chat estan las tablas proximas a crear
+
+Deno oldio el dellate de la contraseña ahora toca actualizar base de datos , front y bakend
+
+Importante configurar el CORS
+el manejo de los nombres y apellidos
+
+boton de formularios
+conexion backend
+CORS
+base de datos 
+
+---proximo-----:
+
+Validacion de expresiones de datos
+Tokens de autenticacion
+
+

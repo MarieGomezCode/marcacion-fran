@@ -1,0 +1,22 @@
+<p>¡Registro exitoso!</p> <!-- Se cambió el texto a español -->
+
+<form (ngSubmit)="onSubmit()" #userForm="ngForm">
+    <div>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" [(ngModel)]="usuario.nombre" name="name" required> <!-- Se actualizó el ngModel a 'usuario.nombre' -->
+    </div>
+    <div>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" [(ngModel)]="usuario.correo" name="email" required> <!-- Se actualizó el ngModel a 'usuario.correo' -->
+    </div>
+    <div>
+      <label for="dateOfBirth">Fecha de Nacimiento:</label>
+      <input type="date" id="dateOfBirth" [(ngModel)]="usuario.fechaNacimiento" name="dateOfBirth" required> <!-- Se actualizó el ngModel a 'usuario.fechaNacimiento' -->
+    </div>
+    <div>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" [(ngModel)]="usuario.contrasena" name="contrasena" required>
+  </div>
+    <button type="submit">Registrar</button>
+</form>
+<!-- Agregar el FormModule-->

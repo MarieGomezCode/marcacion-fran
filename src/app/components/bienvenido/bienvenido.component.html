@@ -1,0 +1,7 @@
+<p>bienvenido works!</p>
+<h1>Bienvenido</h1>
+<app-boton (clickBoton)="mostrarFormularioRegistro()">Registro</app-boton>
+
+<app-boton (clickBoton)="mostrarFormularioLogin()" >Iniciar Sesión</app-boton>
+<app-register *ngIf="mostrarRegistro"></app-register>
+<app-login *ngIf="mostrarLogin"></app-login>
